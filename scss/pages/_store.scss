@@ -1,0 +1,49 @@
+.mainStore {
+    background-color: #e0e5ee;
+}
+
+
+.marcosRojo {
+    display: inline-block;
+    width: 50%;
+}
+
+.section1 {
+    width: 100%;
+    height: 100%;
+    background-color: #e9e9e9;
+}
+
+.navLinks {
+    display: flex;
+    background-color: #003391;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.sectStore {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px){
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 425px){
+    .sectStore {
+        padding: 15px;
+    }
+
+    .card {
+        justify-content: space-between;
+        h3 {
+            font-size: 20px;
+        }
+    }
+}

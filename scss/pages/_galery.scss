@@ -1,0 +1,59 @@
+.mainGalery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-areas: 
+            "area1 area2 area2"
+            "area1 area4 area3"
+            "area5 area5 area3"
+            "area6 area8 area8"
+            "area6 area8 area8"; 
+    background-color: #e0e5ee;
+        img {
+            border-radius: 10px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            padding: 10px;
+        }
+}
+
+.foto1 {
+    grid-area: area1;
+}
+
+.foto2 {
+    object-position: 0 -100px;
+    grid-area: area2;
+}
+
+.foto3 {
+    object-position: 0 -5px;
+    grid-area: area3;
+}
+
+.foto4 {
+    grid-area: area4;
+}
+
+.foto5 {
+    grid-area: area5;
+}
+
+.foto6 {
+    grid-area: area6;
+}
+
+.foto8 {
+    grid-area: area8;
+}
+
+@media (max-width: 425px){
+    .mainGalery {
+        display: flex;
+        flex-direction: column;
+    }
+    .foto2 {
+        object-position: 00;
+    }
+}
