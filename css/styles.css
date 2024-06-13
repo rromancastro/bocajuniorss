@@ -1,5 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+.bannerImg {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ban3 {
+  object-position: top;
+}
+
+.notices {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #303e57;
+  gap: 5px;
+}
+
+.bannerInd {
+  width: 100%;
+}
+.bannerInd img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+@media (max-width: 425px) {
+  .notices {
+    flex-wrap: wrap;
+  }
+  .bannerImg {
+    height: 300px;
+  }
+  .bannerInd img {
+    height: auto;
+  }
+}
 .navbar {
   padding: 0;
 }
@@ -471,6 +509,63 @@ footer {
   .fotosCancha {
     display: flex;
     flex-direction: column;
+  }
+}
+.cardNotice {
+  width: 22%;
+  height: 530px;
+  border-radius: 10px;
+  background-color: #1D293E;
+  transition: 0.5s;
+}
+.cardNotice img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.cardNotice a {
+  text-decoration: none;
+}
+
+.cardNotice:hover {
+  filter: brightness(0.8);
+}
+
+.noticeText {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.noticeTitle {
+  color: white;
+  font-family: "adineue PRO";
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.noticeInfo {
+  color: white;
+  font-size: 18px;
+}
+
+.noticeLink {
+  align-self: center;
+  justify-self: flex-end;
+}
+
+@media (max-width: 425px) {
+  .cardNotice {
+    width: 47%;
+    height: 100%;
+  }
+  .noticeTitle {
+    font-size: 20px;
+  }
+  .noticeInfo {
+    font-size: 15px;
   }
 }
 * {

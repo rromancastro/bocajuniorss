@@ -1,0 +1,40 @@
+.bannerImg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ban3 {
+    object-position: top;
+}
+
+.notices {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #303e57;
+    gap: 5px;
+}
+
+.bannerInd {
+    width: 100%;
+    img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 425px){
+    .notices {
+        flex-wrap: wrap;
+    }
+    .bannerImg {
+        height: 300px;
+    }
+    .bannerInd {
+        img {
+            height: auto;
+        }
+    }
+}
