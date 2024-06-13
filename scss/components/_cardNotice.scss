@@ -2,7 +2,7 @@
     width: 22%;
     height: 530px;
     border-radius: 10px;
-    background-color: #1D293E;
+    background-color: #f0f0f0;
     transition: .5s;
     img {
         width: 100%;
@@ -22,11 +22,12 @@
 .noticeText{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
 }
 
 .noticeTitle {
-    color: white;
+    color: #212529;
     font-family: $font1;
     font-size: 25px;
     font-weight: 600;
@@ -34,13 +35,13 @@
 }
 
 .noticeInfo {
-    color: white;
+    color: #212529;
     font-size: 18px;
+    font-family: $font1;
 }
 
 .noticeLink {
     align-self: center;
-    justify-self: flex-end;
 }
 
 @media (max-width: 425px){

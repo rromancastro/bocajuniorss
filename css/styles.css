@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  background-color: #303e57;
+  background-color: #e0e5ee;
   gap: 5px;
 }
 
@@ -208,7 +208,7 @@
 .card h3 {
   font-size: 23px;
   font-family: "adineue PRO";
-  Font-weight: bolder;
+  font-weight: bolder;
   margin: 10px 10px;
 }
 
@@ -255,6 +255,12 @@
 
 .mainStore {
   background-color: #e0e5ee;
+}
+
+.bannerImgStore {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 .marcosRojo {
@@ -515,7 +521,7 @@ footer {
   width: 22%;
   height: 530px;
   border-radius: 10px;
-  background-color: #1D293E;
+  background-color: #f0f0f0;
   transition: 0.5s;
 }
 .cardNotice img {
@@ -535,11 +541,12 @@ footer {
 .noticeText {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 10px;
 }
 
 .noticeTitle {
-  color: white;
+  color: #212529;
   font-family: "adineue PRO";
   font-size: 25px;
   font-weight: 600;
@@ -547,13 +554,13 @@ footer {
 }
 
 .noticeInfo {
-  color: white;
+  color: #212529;
   font-size: 18px;
+  font-family: "adineue PRO";
 }
 
 .noticeLink {
   align-self: center;
-  justify-self: flex-end;
 }
 
 @media (max-width: 425px) {
