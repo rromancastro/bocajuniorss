@@ -1,10 +1,12 @@
 .sectCancha {
     display: flex;
     gap: 20px;
+    flex-direction: row-reverse;
     background-color: $backgroundColor;
     padding: 10px;
     iframe {
         width: 50%;
+        height: 100%;
         border-radius: 15px;
         height: auto;
     }

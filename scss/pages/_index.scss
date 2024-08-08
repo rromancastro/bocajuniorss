@@ -1,9 +1,27 @@
+.mainIndex {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas: "area1 area1"
+                         "area3 area4";
+}
+
 .noticeImg {
     width: 100%;
+    grid-area: area3;
 }
 
 .bannerInd {
     width: 100%;
+    grid-area: area1;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.bannerInd2 {
+    width: 100%;
+    grid-area: area4;
     img {
         width: 100%;
         object-fit: cover;
@@ -11,6 +29,10 @@
 }
 
 @media (max-width: 425px){
+    .mainIndex{
+        display: flex;
+        flex-direction: column;
+    }
     .notices {
         flex-wrap: wrap;
     }
