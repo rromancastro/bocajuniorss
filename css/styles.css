@@ -88,7 +88,7 @@
 
 .escudo div span {
   color: white;
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   padding: 0;
   font-size: 20px;
   background-color: #003391;
@@ -118,7 +118,7 @@
 
 .link {
   text-decoration: none;
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   letter-spacing: 1px;
   font-weight: 600;
   color: #eeeeee;
@@ -215,21 +215,21 @@
 
 .card h3 {
   font-size: 23px;
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: bolder;
   margin: 10px 10px;
 }
 
 .precio {
   color: #212529;
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: 900;
   letter-spacing: 2px;
   margin: 1px 10px;
 }
 
 .oferta {
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: 900;
   letter-spacing: 2px;
   margin: 1px 10px;
@@ -250,7 +250,7 @@
   box-shadow: 4px 4px 0px 0px #d1d1d1;
   -webkit-box-shadow: 4px 4px 0px 0px #d1d1d1;
   -moz-box-shadow: 4px 4px 0px 0px #d1d1d1;
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: 900;
   letter-spacing: 2px;
   transition: 1s;
@@ -462,12 +462,12 @@ footer {
   align-items: center;
 }
 .infoBombonera h1 {
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: bold;
   font-size: 60px;
 }
 .infoBombonera p {
-  font-family: "adineue PRO";
+  font-family: "AdiNeuePro";
   font-weight: 500;
   font-size: 25px;
 }
@@ -626,6 +626,10 @@ footer {
   .fecha img {
     height: 13px;
   }
+}
+@font-face {
+  font-family: "AdiNeuePro";
+  src: url("https://db.onlinewebfonts.com/t/b82329475307e0380dc1ea23f0c35266.woff") format("woff");
 }
 * {
   margin: 0;
